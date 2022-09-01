@@ -14,5 +14,13 @@
   },
   "engines": {
     "node": "14.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayon008/WeChat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sayon008/WeChat/issues"
+  },
+  "homepage": "https://github.com/Sayon008/WeChat#readme"
 }
