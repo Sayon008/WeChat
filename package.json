@@ -1,26 +1,24 @@
 {
-  "name": "nodeserver",
+  "name": "chat_app",
   "version": "1.0.0",
-  "description": "This is a node server for our iChat application",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
-  "author": "Harry",
-  "license": "ISC",
-  "dependencies": {
-    "socket.io": "^2.5.0"
-  },
-  "engines": {
-    "node": "14.x"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sayon008/WeChat.git"
   },
+  "author": "Sayon",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sayon008/WeChat/issues"
   },
-  "homepage": "https://github.com/Sayon008/WeChat#readme"
+  "homepage": "https://github.com/Sayon008/WeChat#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
 }
